@@ -1,0 +1,197 @@
+* {
+    font-family: "Geologica", sans-serif;
+}
+html {
+    font-size: 14px;
+}
+body {
+    background: linear-gradient(90deg,#052652 0,#2D9CDB 100%);
+    color: #fff;
+}
+
+.tab {
+    background: rgba(233, 233, 243, 0.2)!important;
+    color: rgba(255, 255, 255, 0.4)!important;
+    &__first {
+        border-right: 1px solid rgba(233, 233, 243, 0.2)!important
+    }
+    &__last {
+        border-bottom-right-radius: 8px!important;
+        border-top-right-radius: 8px!important;
+    }
+    &--selected {
+        color: #fff!important;
+    }
+}
+
+.weather-title {
+    &__title {
+        font-size: 2.57rem;
+        font-weight: 600;
+    }
+
+    &__subtitle {
+        font-size: 2.14rem;
+        font-weight: 500;
+        color: rgba(233, 233, 243, 0.6)
+    }
+}
+
+.home {
+
+    &__main {
+        &-icon {
+            width: 12.857rem;
+        }
+        &-temp {
+            font-size: 7.142rem;
+            font-weight: 700;
+        }
+        &-info {
+            font-size: 1.714rem;
+            font-weight: 500;
+        }
+    }
+}
+
+.forecast {
+    font-size: 1.28rem;
+    font-weight: 500;
+
+    &__temp {
+        font-size: 3.428rem;
+        font-weight: 600;
+        width: 5.714rem;
+    }
+
+    &__img {
+        width: 4.285rem;
+        height: 4.285rem;
+    }
+
+    &__condition {
+        flex-wrap: wrap;
+        width: 10.714rem;
+        flex-grow: 1;
+    }
+
+    &__wrapper {
+        border-bottom: 1px solid rgba(233, 233, 243, 0.1);
+    }
+}
+
+.week {
+    font-size: 1.28rem;
+    &__img {
+        width: 4.285rem;
+    }
+}
+
+.trends {
+
+    &__title {
+        font-size: 2.57rem;
+        font-weight: 600;
+    }
+}
+
+.card {
+    background: rgba(238, 237, 237, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 1.28rem;
+    min-width: 17.5rem;
+
+    &__title {
+        font-size: 2rem;
+    }
+
+    &__img {
+        width: 4.285rem;
+    }
+
+    &__temp {
+        font-size: 3.428rem;
+        font-weight: 600;
+    }
+}
+
+.select {
+    top: 40px;
+    right: 40px;
+    min-width: 17.57rem;
+    border-radius: 10px;
+    &--selected-item {
+        display: none!important
+    }
+
+    &__items {
+        color: #fff!important;
+    }
+
+    
+    .v-field__append-inner {
+        padding-top:11px!important;
+    }
+    .v-input__control {
+        background-color: rgba(233, 233, 243, 0.1);
+        border-radius: 8px;
+    }
+    .v-field__input {
+        padding-top: 0px;
+        padding-left: 16px;
+    }
+}
+.v-list {
+    background: rgba(233, 233, 243, 0.1)!important;
+    backdrop-filter: blur(5px)
+}
+.v-select__content {
+    box-shadow: none!important;
+}
+
+@media (max-width: 1450px) {
+    :root { font-size: 13px; }
+}
+@media (max-width: 1320px) {
+    :root { font-size: 12px; }
+}
+@media (max-width: 1150px) {
+    :root { font-size: 11px; }
+    .card { min-width: 19.4rem;}
+}
+@media (max-width: 600px) {
+    :root { font-size: 10px; }
+}
+
+@media (max-width: 510px) {
+    .select {
+        top: 95px;
+        left: 40px;
+        right: auto;
+    }
+}
+@media (max-width: 480px) {
+    :root { font-size: 9px; }
+}
+@media (max-width: 440px) {
+    .mr-8 {
+        margin-right: 8px!important;
+    }
+    .mr-11 {
+        margin-right: 8px!important;
+    }
+    .ml-11 {
+        margin-left: 8px!important;
+    }
+    .mb-3 {
+        margin-bottom: 4px !important;
+    }
+    .mt-3 {
+        margin-top: 4px !important;
+    }
+}
+@media (max-width: 365px) {
+    :root { font-size: 7px; }
+}

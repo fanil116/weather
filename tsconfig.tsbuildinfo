@@ -1,0 +1,1 @@
+{"root":["./src/main.ts","./src/vite-env.d.ts","./src/composables/date.ts","./src/composables/weathertranslate.ts","./src/store/index.ts","./src/types/coordinate.ts","./src/types/selectitems.ts","./src/types/weatherdata.ts","./node_modules/vuetify/dist/vuetify-labs.d.ts","./node_modules/vuetify/dist/vuetify.d.ts"],"errors":true,"version":"5.7.3"}
