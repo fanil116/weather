@@ -2,7 +2,7 @@
     <div class="mt-14 week">
         <weather-title :currentDate="currentDate" :title="props.title"></weather-title>
         <div class="d-flex flex-wrap mt-12">
-            <div class="d-flex flex-column align-center mr-5" v-for="(item,i) in forecast" :key="i">
+            <div class="week__card d-flex flex-column align-center mr-5" v-for="(item,i) in forecast" :key="i">
                 <div class="mb-2 text-capitalize">
                     {{ formatDayOfWeek(item.date_ts) }}
                 </div>

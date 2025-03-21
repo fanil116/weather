@@ -163,6 +163,9 @@ body {
 }
 @media (max-width: 600px) {
     :root { font-size: 10px; }
+    .week__card {
+        min-width: 80px;
+    }
 }
 
 @media (max-width: 510px) {
