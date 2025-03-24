@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import AppTabs from './components/AppTabs.vue'
+import AppTabs from "./components/AppTabs.vue";
 </script>
 
 <template>
@@ -8,5 +8,4 @@ import AppTabs from './components/AppTabs.vue'
   </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
