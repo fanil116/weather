@@ -29,7 +29,7 @@
                 </div>
             </div>
         </div>
-        <Trends />
+        <trends-section />
     </div>
 </template>
 <script setup lang="ts">
@@ -38,7 +38,7 @@
     import { convertDate } from "../composables/date";
     import { translateWeatherCondition } from "../composables/weatherTranslate";
     import WeatherTitle from './WeatherTitle.vue'
-    import Trends from './Trends.vue'
+    import TrendsSection from './TrendsSection.vue'
     const { formatDate, getTimePeriod, formatUnixTimeToHHMM } = convertDate();
     interface WeatherProps {
         title: string;

@@ -12,7 +12,7 @@
                 </div>
             </div>
         </div>
-        <Trends/>
+        <trends-section/>
     </div>
 </template>
 <script setup lang="ts">
@@ -20,7 +20,7 @@
     import { useWeather } from "../store";
     import WeatherTitle from './WeatherTitle.vue';
     import { convertDate } from "../composables/date";
-    import Trends from './Trends.vue'
+    import TrendsSection from './TrendsSection.vue'
     const props = defineProps(['title']);
     const weather = useWeather();
     const { formatDate, formatDayOfWeek } = convertDate();

@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import Tabs from './components/Tabs.vue'
+import AppTabs from './components/AppTabs.vue'
 </script>
 
 <template>
   <div class="ma-6">
-    <Tabs />
+    <app-tabs />
   </div>
 </template>
 

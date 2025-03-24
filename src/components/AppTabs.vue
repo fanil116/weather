@@ -26,7 +26,7 @@
               </v-tabs-window-item>
             </v-tabs-window>
           </v-card>
-          <Select class="position-absolute select"  @updateCity="updateCity" />
+          <app-select class="position-absolute select"  @updateCity="updateCity" />
         </v-col>
       </v-row>
     </v-container>
@@ -34,9 +34,9 @@
   
 <script setup lang="ts">
   import { ref, computed, watch } from 'vue'
-  import Home from './Home.vue'
-  import Week from './Week.vue'
-  import Select from './Select.vue'
+  import Home from './HomeView.vue'
+  import Week from './WeekView.vue'
+  import AppSelect from './AppSelect.vue'
   import type {SelectItems} from "../types/SelectItems"
   import { useWeather } from "../store"
     const weather = useWeather();

@@ -5,7 +5,7 @@
     </div>
     <div class="d-flex flex-wrap justify-center justify-sm-space-between ga-2 ga-sm-0">
         <div v-for="(item,i) in trendsCity" :key="i">
-            <Card :item="item" :accessKey="accessKey"/>
+            <base-card :item="item" :accessKey="accessKey"/>
         </div>
     </div>
 </template>
@@ -13,7 +13,7 @@
     import questIcon from '../assets/icons/quest.svg';
     import { computed } from 'vue'
     import { useWeather } from "../store";
-    import Card from './Card.vue'
+    import BaseCard from './BaseCard.vue'
     const weather = useWeather();
     const trendsCity = computed(() => weather.getTrendsCity);
     const accessKey = computed(() => weather.getAccessKey);
