@@ -38,7 +38,7 @@ export const useWeather = defineStore("weather", {
         longitude: 37.618423,
       },
     },
-    accessKey: "ef930777-ea9a-4236-a72c-4e6a51359a0f",
+    accessKey: "a034a1f7-cd1a-48cc-9781-453e392f5495",
     weatherData: null,
     trendsCity: [
       {

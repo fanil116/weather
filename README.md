@@ -1,4 +1,4 @@
-Внимание: Написать в tg fanil_116 или поменять самим accessKey, если не работает api. Так как испоьзуется бесплатная yandex api. работает до 27.03.2025
+Внимание: Написать в tg fanil_116 или поменять самим accessKey, если не работает api. Так как испоьзуется бесплатная yandex api. работает до 04.04.2025
 
 В проектк используется Vuetify 3, Pinia 3, Axios, Vue 3 Composition api, TypeScript
 # Vue 3 + TypeScript + Vite
